@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+    function updateHtml() {
+        document.getElementById("content").innerHTML = "java调用js更新页面";
+  window.alert("argamogoa");
+    }
+</script>
+</head>
+
+<body>
+<dl>
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+</dl>
+<table border="1">
+    <tr>
+        <td>row 1, cell 1</td>
+        <td>row 1, cell 2</td>
+    </tr>
+    <tr>
+        <td>row 2, cell 1</td>
+        <td>row 2, cell 2</td>
+    </tr>
+</table>
+ <a onClick="window.update.startFunction()" href="";>点击，js调用java中的toast</a>
+<span id="content"></span>
+<input type="button" onclick="window.update.startFunction()" value="显示警告框" />
+</body>
+</html>
